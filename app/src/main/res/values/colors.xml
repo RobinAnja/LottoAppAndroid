@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#fabf06</color>
+    <color name="red">#d22321</color>
+    <color name="light_yellow">#f7dc16</color>
+    <color name="light_gray">#C0C4C7</color>
+    <color name="light_red">#E47B7A</color>
+    <color name="spiel77">#007BA8</color>
+    <color name="super6">#AB1C45</color>
+    <color name="text">#4B4B4B</color>
+    <color name="gray">#A0A6AB</color>
+</resources>

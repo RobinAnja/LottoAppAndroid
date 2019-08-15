@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="100dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:padding="20dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <GridView
+                android:id="@+id/grid_view"
+                android:layout_width="327dp"
+                android:layout_height="330dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="start"
+                android:numColumns="7">
+
+            </GridView>
+
+            <ImageButton
+                android:id="@+id/garbage_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/grid_view"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:tint="#656B72"
+                android:paddingRight="15dp"
+                app:srcCompat="@drawable/garbage" />
+
+            <ImageButton
+                android:id="@+id/dices_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/grid_view"
+                android:layout_margin="5dp"
+                android:tint="#656B72"
+                android:layout_toRightOf="@id/garbage_button"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/dices" />
+
+            <Button
+                android:id="@+id/plus_1_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/grid_view"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toLeftOf="@id/plus_4_button"
+                android:background="#ffffff"
+                android:stateListAnimator="@null"
+                android:text="+1"
+                android:textColor="#656B72"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/plus_4_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/grid_view"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toLeftOf="@id/plus_8_button"
+                android:background="#ffffff"
+                android:stateListAnimator="@null"
+                android:text="+4"
+                android:textColor="#656B72"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/plus_8_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/grid_view"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toLeftOf="@id/plus_14_button"
+                android:background="#ffffff"
+                android:stateListAnimator="@null"
+                android:text="+8"
+                android:textColor="#656B72"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                />
+
+            <Button
+                android:id="@+id/plus_14_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/grid_view"
+                android:layout_alignRight="@id/grid_view"
+                android:layout_alignParentRight="false"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:stateListAnimator="@null"
+                android:text="+14"
+                android:textColor="#656B72"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
